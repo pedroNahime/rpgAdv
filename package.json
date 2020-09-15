@@ -1,0 +1,11 @@
+{
+  "name": "rpgAdv",
+  "version": "0.0.1",
+  "description": "rpg using phaserjs",
+  "main": "index.js",
+  "author": "pcnahime",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "3.24.1"
+  }
+}
