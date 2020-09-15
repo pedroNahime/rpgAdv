@@ -1,0 +1,70 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+  "sort-destructure-keys",
+  "simple-import-sort"
+],
+  "rules": {
+    "space-before-function-paren": [
+      "error", "never"
+    ],
+    "key-spacing": [
+      "error", {
+        "beforeColon": false, "afterColon": true}],
+    "block-spacing": "error",
+    "quotes": [
+      "error", "single"
+    ],
+    "semi": "error",
+    "eqeqeq": [
+      "error", "always"
+    ],
+    "no-else-return": "error",
+    "comma-dangle": [
+      "error", "never"
+    ],
+    "one-var": [
+      "error", "never"
+    ],
+    "no-var": "error",
+    "curly": "error",
+    "no-duplicate-imports": "error",
+    "prefer-const": "error",
+    "arrow-body-style": [
+      "error", "as-needed"
+    ],
+    "no-multiple-empty-lines": [
+      "error", {
+        "max": 1}],
+    "no-multi-spaces": "error",
+    "no-trailing-spaces": "error",
+    "spaced-comment": [
+      "error", "always"
+    ],
+    "indent": "error",
+    "default-case": "error",
+    "no-extra-parens": "error",
+    "max-len": [
+      "error", {
+        "code": 100, "tabWidth": 4}],
+    "sort-destructure-keys/sort-destructure-keys":
+    [
+      "error", {
+      "caseSensitive": false}],
+    "simple-import-sort/sort": "error"
+  }
+}
